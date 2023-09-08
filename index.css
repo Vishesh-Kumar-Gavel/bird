@@ -1,0 +1,46 @@
+#outerbody {
+    height: 80vh;
+    width: 90vw;
+    background-color: white;
+}
+
+#outerbox {
+    height: auto;
+    width: 78vw;
+    margin: auto;
+}
+
+.medium_box {
+    height: 2vh;
+    width: auto;
+    background-color: black;
+}
+
+.small_box_black {
+    height: 100%;
+    width: 2vw;
+    background-color: black;
+    display: inline-block;
+}
+
+.small_box_yellow {
+    height: 100%;
+    width: 2vw;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.bird {
+    height: 100%;
+    width: 2vw;
+    background-image: url('/Flappy-bird.png');
+    background-size: 100%;
+    background-position: center center;
+    display: inline-block;
+}
+
+#gameover
+{
+    display: none;
+    margin: auto;
+}
